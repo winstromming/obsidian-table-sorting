@@ -1,8 +1,19 @@
-/*
-
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
-
-If your plugin does not need CSS, delete this file.
-
-*/
+table thead th {
+  cursor: pointer !important;
+}
+table thead th.sort-desc,
+table thead th.sort-asc {
+  position: relative;
+}
+table thead th.sort-desc:after,
+table thead th.sort-asc:after {
+  opacity: 0;
+  position: absolute;
+  right: 5px;
+}
+table thead th.sort-desc:after {
+  content: "\2193" !important;
+}
+table thead th.sort-asc:after {
+  content: "\2191" !important;
+}
