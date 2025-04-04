@@ -50,7 +50,7 @@ export default class TableSortPlugin extends Plugin {
 						return 0
 					}
 				})
-     .forEach(tr => tbody.appendChild(tr));
+				.forEach(tr => tbody.appendChild(tr));
 
 		})
 	}
