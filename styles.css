@@ -7,7 +7,7 @@ table thead th.sort-asc {
 }
 table thead th.sort-desc:after,
 table thead th.sort-asc:after {
-  opacity: 0;
+  opacity: 0.5;
   position: absolute;
   right: 5px;
 }
